@@ -15,3 +15,15 @@ elif (color == 'pink'):
     print('Close!')
 else:
     print('Sorry, try again.')
+    
+   
+print('Hello!')
+color = input("What is my favorite color? ")
+input ("burgundy")
+color = color.lower().strip()
+if (color == 'red'):
+    print('Correct!')
+elif (color == 'pink'):
+    print('Close!')
+else:
+    print('Sorry, try again.') 

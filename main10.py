@@ -7,8 +7,12 @@ utils.clear()                       # clear the screen
 
 
 print('Greetings!')
+#this will print greetings
 colors = ['red','orange','yellow','green','blue','violet','purple']
+#this tells what the colors are
 play_again = ''
+#this '' means play again
+
 best_count = sys.maxsize            # the biggest number
 while (play_again != 'n' and play_again != 'no'):
     match_color = random.choice(colors)

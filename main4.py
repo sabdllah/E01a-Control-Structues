@@ -12,3 +12,8 @@ if (color == 'Red' or color == 'red'):
     print('Correct!')
 else:
     print('Sorry, try again.')
+    color = input ('burgundy')
+    if (color == 'BurdGundy' or color = 'burgUndy'):
+    print ('Correct!')
+    else:
+        print ('Sorry, try again.')
